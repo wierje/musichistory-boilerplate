@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Music History</title>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+  </head>
+  <body>
+    <article>
+      <header>
+        <div>
+          <nav>View music | <a href="#"> Add Artist </a> | <a href="#"> Add Music </a></nav>
+        </div>
+      </header>
+      <section id='page'>
+        <div id='left'>
+          <div class="center">
+            <p>Song length:</p>
+            <input type="range" min='0' max='100' id='slider'/>
+          </div>
+          <div class="center">
+            <p>Artist:</p>
+            <form>
+              <select>
+                <option value='Miles Davis'>Miles Davis</option>
+                <option value='Spyro Gyra'>Spyro Gyra</option>
+                <option value='Yellowjackets'>Yellowjackets</option>
+                <option value='The Crusaders'>The Crusaders</option>
+                <option value='The Rippingtons'>The Rippingtons</option>
+              </select>
+            </form>
+          </div>
+          <div class="center">
+            <p>Album:</p>
+            <form>
+              <select>
+                <option value='Miles Davis'>Tutu</option>
+                <option value='Spyro Gyra'>Breakout</option>
+                <option value='Yellowjackets'>Blue Hats</option>
+                <option value='The Crusaders'>Healing The Wounds</option>
+                <option value='The Rippingtons'>Weekend In Monaco</option>
+              </select>
+            </form>
+          </div>
+          <section>
+            <div class='center'>
+              <p>Genre:</p>
+              <form action="">
+                <div class="left">
+                  <input type="radio" name="genre" value="Jazz">Jazz<br>
+                  <input type="radio" name="genre" value="Rock">Rock<br>
+                  <input type="radio" name="genre" value="Classical">Classical<br>
+                </div>
+                <div class="right">
+                  <input type="radio" name="genre" value="Country">Country<br>
+                  <input type="radio" name="genre" value="Blues">Blues<br>
+                  <input type="radio" name="genre" value="Blues">Fusion<br>
+                </div>
+              </form>
+            </div>
+          </section>
+          <div class="center">
+            <button class="filter">Filter</button>
+          </div>
+        </div>
+        <div id='right'>
+          <div class="fillInfo">
+            <h1>St. Tropez</h1>
+            <p>The Rippingtons | Weekend In Monaco | Jazz</p>
+          </div>
+          <div class="fillInfo">
+            <h1>Splatch</h1>
+            <p>Miles Davis | Tutu | Jazz</p>
+          </div>
+          <div class="fillInfo">
+            <h1>Capetown</h1>
+            <p>Yellowjackets | Blue Hats | Jazz</p>
+          </div>
+          <div class="fillInfo">
+            <h1>Bob Goes to The Store</h1>
+            <p>Spyro Gyra | Breakout | Jazz</p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>

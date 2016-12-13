@@ -1,0 +1,80 @@
+body {
+  font-family: roboto, sans-serif;
+}
+
+  header {
+  width: 80%;
+  height: 60px;
+  background-color: #FFB4B0;
+  margin: auto;
+  border: 2px solid black;
+}
+
+nav {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#page {
+  width: 80%;
+  height: 800px;
+  background-color: aliceblue;
+  margin: 1px auto;
+}
+
+#left {
+  display: table;
+  width: 23%;
+  height: 95%;
+  background-color: #4DD7FA;
+  float: left;
+  margin-top: 2.5%;
+  border: 2px solid black;
+
+}
+
+#right {
+  width: 73%;
+  height: 95%;
+  background-color: #FEFAC0;
+  float: right;
+  margin-top: 2.5%;
+  border: 2px solid black;
+}
+
+#slider {
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin: 30px;
+}
+
+.left {
+  float: left;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  text-align: left;
+}
+
+select {
+  width: 60%;
+  font-size: .8em;
+}
+
+.filter {
+  width: 60%;
+  margin: 30px;
+}
+
+.fillInfo {
+  margin-left: 30px;
+}
